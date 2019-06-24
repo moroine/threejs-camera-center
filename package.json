@@ -1,15 +1,22 @@
 {
-    "name": "threejs-camera-center",
-    "version": "0.1.0",
-    "description": "ThreeJs Camera center on util",
-    "main": "index.js",
-    "repository": "https://github.com/moroine/threejs-camera-center",
-    "author": "Moroine Bentefrit",
-    "license": "MIT",
-    "private": false,
-    "devDependencies": {
-        "eslint": "^6.0.0",
-        "eslint-plugin-prettier": "^3.1.0",
-        "prettier": "1.18.2"
-    }
+  "name": "threejs-camera-center",
+  "version": "0.1.0",
+  "description": "ThreeJs Camera center on util",
+  "main": "index.js",
+  "repository": "https://github.com/moroine/threejs-camera-center",
+  "author": "Moroine Bentefrit",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "eslint": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "1.18.2",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5"
+  },
+  "scripts": {
+    "build": "webpack"
+  }
 }
