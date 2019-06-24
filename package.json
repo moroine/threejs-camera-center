@@ -6,6 +6,9 @@
     "repository": "https://github.com/moroine/threejs-camera-center",
     "author": "Moroine Bentefrit",
     "license": "MIT",
-    "private": false
+    "private": false,
+    "devDependencies": {
+        "eslint-plugin-prettier": "^3.1.0",
+        "prettier": "1.18.2"
+    }
 }
-  
